@@ -24,12 +24,12 @@
       <div class="form-card">
         <form id="contact-form" action="https://formspree.io/f/xwvarjop" method="POST">
           <div class="form-row">
-            <div class="field"><label>Nombre *</label><input type="text" required></div>
-            <div class="field"><label>Email *</label><input type="email" required></div>
+            <div class="field"><label>Nombre *</label><input type="text" name="nombre" required></div>
+            <div class="field"><label>Email *</label><input type="email" name="email" required></div>
           </div>
-          <div class="field"><label>Organización</label><input type="text"></div>
+          <div class="field"><label>Organización</label><input type="text" name="organizacion"></div>
           <div class="field"><label>Soy...</label>
-            <select>
+            <select name="tipo">
               <option>Promotora inmobiliaria</option>
               <option>Comunidad de vecinos</option>
               <option>Ayuntamiento</option>
@@ -37,7 +37,7 @@
               <option>Otro</option>
             </select>
           </div>
-          <div class="field"><label>Mensaje</label><textarea required placeholder="Cuéntanos tu caso..."></textarea></div>
+          <div class="field"><label>Mensaje</label><textarea name="mensaje" required placeholder="Cuéntanos tu caso..."></textarea></div>
           <button type="submit" class="btn btn-primary">Enviar mensaje →</button>
         </form>
         <div id="form-success" style="display:none;text-align:center;padding:48px 0">

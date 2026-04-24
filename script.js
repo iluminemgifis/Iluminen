@@ -25,7 +25,7 @@ const FOOTER_HTML = `
     <div>
       <h4>Contacto</h4>
       <ul>
-        <li><a href="mailto:IluminemGIFIS@gmail.com" class="footer-link">✉ IluminemGIFIS@gmail.com</a></li>
+        <li><a "https://mail.google.com/mail/?view=cm&to=IluminemGIFIS@gmail.com" target="_blank" rel="noopener" class="footer-link">✉ IluminemGIFIS@gmail.com</a></li>
         <li><a href="https://www.instagram.com/iluminem.gifis" target="_blank" rel="noopener" class="footer-link"><img src="assets/Instagram.jpg"> @iluminem.gifis</a></li>
         <li>📍 Valencia, España</li>
       </ul>

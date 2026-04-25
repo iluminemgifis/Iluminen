@@ -34,7 +34,7 @@ const FOOTER_HTML = `
          rel="noopener noreferrer" 
          style="text-decoration:none; color:inherit; display:block; line-height: 1.4;">
         📍Camí de Vera, ETSIT – UPV<br>
-        46022 València · España
+          46022 València · España
       </a></li>
       </ul>
     </div>
